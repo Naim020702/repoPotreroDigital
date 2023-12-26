@@ -124,5 +124,6 @@ div {
     .span1, .span2 {
         background-color: aqua;
         display: inline-block;
+        /* display: block; */
         height: 500px;
     }

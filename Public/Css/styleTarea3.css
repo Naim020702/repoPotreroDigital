@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Lobster&display=swap');
+
+/* font-family: 'Bebas Neue', sans-serif;   Links
+font-family: 'Dancing Script', cursive;   Texto
+font-family: 'Lobster', sans-serif;   Titulo   */
+
+.a1, .a2 {
+    display: block;
+}
+
+h1 {
+    font-family: 'Lobster', sans-serif;
+    color: brown;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+a {
+    font-family: 'Bebas Neue', sans-serif;
+    color: blueviolet;
+}
+
+body {
+    /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/125/533/small/vector-grunge-texture.jpg); */
+    background-color: #ff9500;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
