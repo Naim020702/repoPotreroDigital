@@ -6,21 +6,51 @@ font-family: 'Lobster', sans-serif;   Titulo   */
 
 .a1, .a2 {
     display: block;
+    border-style: double;
+    border-width: 5px;
+    border-color: brown;
+    margin: auto;
+    padding: 5px;
 }
 
 h1 {
     font-family: 'Lobster', sans-serif;
     color: brown;
+    text-align: center;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
 }
 
 p {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: brown;
+    border-style: solid;
+    border-color: white;
+    width: 1000px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
 }
 
 a {
     font-family: 'Bebas Neue', sans-serif;
     color: blueviolet;
+    display: block;
+    width: fit-content;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: blueviolet;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
 }
 
 body {
