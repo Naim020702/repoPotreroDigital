@@ -48,18 +48,17 @@ div p {
     align-self: center;
 }
 
-.p2 {
-    /* font-size: 15px; */
-    /* order: -1; */
-    /* flex-grow: 10; */
-    /* flex-grow: 2; */
-    /* align-self: flex-end; */
+/* .p2 {
+    font-size: 15px;
+    order: -1;
+    flex-grow: 10;
+    flex-grow: 2;
+    align-self: flex-end;
     align-self: stretch;
 }
 
 .p3 {
-    /* font-size: 60px; */
-    /* order: 2; */
-    /* flex-grow: 1; */
-
-}
+    font-size: 60px;
+    order: 2;
+    flex-grow: 1;
+} */
