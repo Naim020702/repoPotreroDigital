@@ -1,0 +1,129 @@
+/* Estilos Comunes */
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/* Estilos Header */
+header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(https://wallpapers.com/images/hd/nba-logo-9y2dq91klhsh65jq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(orange, red);
+    color: azure;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+    header {
+        background-position: center;
+    }
+}
+
+/* Estilos Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #e18547;
+    position: sticky;
+    top: 0;
+    border-style: inset outset;
+    border-width: 7px;
+    border-color: blue;
+}
+
+.navbar a {
+    color: azure;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: darkslateblue;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        position: unset;
+    }
+
+    .navbar a {
+        text-align: center;
+    }
+}
+
+/* Estilos Parte Principal */
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex-basis: 25%;
+    /* height: 400px; */
+    padding: 10px;
+    background-color: wheat;
+    text-align: center;
+}
+
+main {
+    flex-basis: 75%;
+    /* height: 400px; */
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .principal {
+        flex-direction: column;
+    }
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+
+.contenidoAdic {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px dotted;
+    background-image: linear-gradient(orange, red);
+    color: azure;
+}
+
+.asideTitle {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .image img {
+        width: 60%;
+        height: auto;
+    }
+}
