@@ -57,3 +57,39 @@ header img {
         padding: 5px;
     } */
 }
+
+/* Estilos Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #F08D0C;
+    position: sticky;
+    top: 0;
+    border-style: inset;
+    border-color: brown;
+    border-width: 5px;
+}
+
+.navbar a {
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 14px 20px;
+    background-color: #ffe7cb;
+    text-decoration: none;
+    color: brown;
+}
+
+.navbar a:hover {
+    background-color: brown;
+    color: #ffe7cb;
+}
+
+@media (max-width: 775px) {
+    .navbar {
+        flex-direction: column;
+        position: unset;
+    }
+    .navbar a {
+        text-align: center;
+    }
+}
