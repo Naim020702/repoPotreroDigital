@@ -1,3 +1,27 @@
-.container {
+/* .container {
     background-color: red;
+} */
+
+.col1 {
+    background-color: red;
+}
+
+.col2 {
+    background-color: blue;
+}
+
+.col3 {
+    background-color: green;
+}
+
+.col4 {
+    background-color: yellow;
+}
+
+.col5 {
+    background-color: violet;
+}
+
+.col6 {
+    background-color: lightseagreen;
 }
