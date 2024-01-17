@@ -1,0 +1,59 @@
+/* Paleta de Colores */
+/* #934600 marroncito
+#F08D0C naranjita
+#FFCE97 clarito
+#EEFF41 amarillito
+#63AF1D verde */
+
+/* Estilos Comunes */
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/* Estilos Header */
+header {
+    background-image: linear-gradient(#F08D0C, #ffe7cb);
+    /* background-color: #934600; */
+    color: #ffe7cb;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    height: 300;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div {
+    background-color: #F08D0C;
+    padding: 10px;
+    border-style: inset;
+    border-radius: 10px;
+    border-color: brown;
+}
+
+header img {
+    height: 22vw;
+    padding: 5px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+@media (max-width: 420px) {
+    header {
+        flex-direction: column;
+    }
+    /* header img {
+        padding: 5px;
+    } */
+}
